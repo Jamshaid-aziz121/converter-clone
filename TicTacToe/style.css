@@ -10,8 +10,7 @@ body {
 
 .container {
   height: 70vh;
-  display: flex;
-
+  display: flex; //hello i am Shivam Dombe 
   justify-content: center;
   align-items: center;
 }
