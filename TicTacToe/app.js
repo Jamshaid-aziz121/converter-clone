@@ -43,6 +43,7 @@ boxes.forEach((box) => {
 
     if (count === 9 && !isWinner) {
       gameDraw();
+      count=0;
     }
   });
 });
