@@ -1,12 +1,13 @@
+//Storing an APi in a Variable
 const BASE_URL =
   "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies";
-
+// Selecting the elements from the HTMl with querySelectors
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("form button");
 const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg");
-
+// Loop to iterate though the list
 for (let select of dropdowns) {
   for (currCode in countryList) {
     let newOption = document.createElement("option");
@@ -24,7 +25,7 @@ for (let select of dropdowns) {
     updateFlag(evt.target);
   });
 }
-
+// fetching api and checking the input values
 const updateExchangeRate = async () => {
   let amount = document.querySelector(".amount input");
   let amtVal = amount.value;
