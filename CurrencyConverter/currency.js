@@ -1,6 +1,3 @@
-//the currency api is now updated ..and this is my code with updatd api and it is working 
-//thank you mam for jvascript series you have provided us for free...
-
 BASE_URL = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies";
 
 const dropdowns = document.querySelectorAll(".dropdown select");
